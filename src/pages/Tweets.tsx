@@ -9,11 +9,12 @@ import { Tweet } from "../components/Tweet";
         'Tweet 1',
         'Tweet 2',
         'Tweet 3',
-        'Tweet 4'
+        'Tweet 4',
+        'Tweet 5'
       ])
     
       function createTweet(){
-        setTweets([...tweets, 'Tweet 5'])
+        setTweets([...tweets, 'Tweet 6'])
       }
       
     return (
